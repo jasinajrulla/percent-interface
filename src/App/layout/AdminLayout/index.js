@@ -251,7 +251,7 @@ function AdminLayout() {
               <Navbar.Brand style={{ background: "transparent" }}>
                 <img
                   alt=""
-                  src={require("../../../assets/images/PCT-brand-logo.png")}
+                  src={require("../../../assets/images/nmt-brand-logo.png")}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"

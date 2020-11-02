@@ -84,7 +84,7 @@ function AdminLayout() {
           <img
             className="rounded-circle"
             style={{ width: "16px", margin: "0px 10px 3px 0px" }}
-            src={require(`../../../assets/images/PCT-logo.png`)}
+            src={require(`../../../assets/images/nmt-logo.png`)}
             alt=""
           />
           {`${new BigNumber(zeroStringIfNullish(pctBalance))
@@ -97,7 +97,7 @@ function AdminLayout() {
           >
             <span>
               <span style={{ color: "grey", margin: "0px 10px 0px 0px" }}>
-                PCT Balance
+                NMT Balance
               </span>
               {`${new BigNumber(zeroStringIfNullish(pctBalance))
                 .decimalPlaces(4)
@@ -109,7 +109,7 @@ function AdminLayout() {
           >
             <span>
               <span style={{ color: "grey", margin: "0px 10px 0px 0px" }}>
-                PCT Earned
+                NMT Earned
               </span>
               {`${new BigNumber(zeroStringIfNullish(pctEarned))
                 .decimalPlaces(4)
